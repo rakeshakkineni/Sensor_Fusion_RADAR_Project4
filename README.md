@@ -28,6 +28,14 @@ To calculate 2D CFAR from 2D FFT output following steps were followed. I have us
  
  ## Output:
  Following are snapshots of FFT and thresholded outputs. 
+ 1D FFT Output:
+   <img src="Output/RFFT.png" width="779" height="414" />
+ 
+ 2D FFT Output:
+   <img src="Output/Range_Dopp_Image.png" width="779" height="414" />  
+ 
+ Slope: 
+   <img src="Output/WorkSpace_Snapshot.png" width="414" height="779" />  
  
  
  
