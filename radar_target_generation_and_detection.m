@@ -179,20 +179,7 @@ RDM_Thold = zeros(Nr/2,Nd);
 %signal under CUT with this threshold. If the CUT level > threshold assign
 %it a value of 1, else equate it to 0.
 for i = 1:(Nr/2-Tr-Gr-1)
-    for j = 1:(Nd-Td-Gd-1)
-        %rmin = (i-Tr-Gr-1)>0?i-Tr-Gr-1:1;
-        %rmax = (i+Tr+Gr+1)<=Nr?i+Tr+Gr+1:Nr;
-        
-        %dmin = (j-Td-Gd-1)>0?j-Td-Gd-1:1;
-        %dmax = (j+Td+Gd+1)<=Nd?i+Td+Gd+1:Nd;
-        
-        %rmin_g = (i-Gr-1)>0?i-Gr-1:1;
-        %rmax_g = (i+Gr+1)<=Nr?i+Gr+1:Nr;
-        
-        %dmin_g = (j-Gd-1)>0?j-Gd-1:1;
-        %dmax_g = (j+Gd+1)<=Nd?i+Gd+1:Nd;
-        
-        
+    for j = 1:(Nd-Td-Gd-1)        
         rmin = (i-Tr-Gr-1);
         rmax = (i+Tr+Gr+1);        
         dmin = (j-Td-Gd-1);
